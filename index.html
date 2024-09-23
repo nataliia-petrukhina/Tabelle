@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tabelle Elemente</h1>
+      <p>
+        Tabellen werden nur für Daten genutzt, und niemals zur Gestaltung des
+        Layouts
+      </p>
+    </header>
+    <main>
+      <section>
+        <table>
+          <tr>
+            <th>Kopf 1</th>
+            <th>Kopf 2</th>
+          </tr>
+          <tr>
+            <td>Zelle 1, Reihe 1</td>
+            <td>Zelle 2, Reihe 1</td>
+          </tr>
+          <tr>
+            <td>Zelle 1, Reihe 2</td>
+            <td>Zelle 2, Reihe 2</td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <table>
+          <caption>
+            Beispiel Tabelle Mit Caption
+          </caption>
+
+          <thead>
+           <tr>
+            <th>Kopf 1</th>
+            <th>Kopf 2</th>
+            <th>Kopf 3</th>
+          </tr>
+          </thead>
+        
+ <tbody>
+    <tr>
+        <td>Zelle 1, Reihe 1</td>
+        <td>Zelle 2, Reihe 1</td>
+        <td>Zelle 3, Reihe 1</td>
+      </tr>
+      <tr>
+        <td>Zelle 1, Reihe 2</td>
+        <td>Zelle 2, Reihe 2</td>
+        <td>Zelle 3, Reihe 1</td>
+ </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Fuß1</td>
+                    <td>Fuß2</td>
+                    <td>Fuß3</td>
+                </tr>
+            </tfoot>
+      </section>
+      <section>
+        <table>
+          <caption>
+            Beispiel Tabelle Mit Col und Row Span
+          </caption>
+
+          <thead>
+           <tr>
+            <th>Kopf 1</th>
+            <th>Kopf 2</th>
+            <th>Kopf 3</th>
+          </tr>
+          </thead>
+ <tbody>
+    <tr>
+        <td rowspan="2">Zelle 1, Reihe 1</td>
+        <td>Zelle 2, Reihe 1</td>
+        <td>Zelle 3, Reihe 1</td>
+      </tr>
+      <tr>
+<!--         <td>Zelle 1, Reihe 2</td>
+ -->        <td>Zelle 2, Reihe 2</td>
+        <td>Zelle 3, Reihe 1</td>
+ </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Fuß1</td>
+<!--                     <td>Fuß2</td>
+                    <td>Fuß3</td> -->
+                </tr>
+            </tfoot>
+      </section>
+      <section>
+        <table>
+          <caption>
+            Beispiel Tabelle Mit Gestreifte Tabellen
+          </caption>
+
+          <thead>
+           <tr>
+            <th>Kopf 1</th>
+            <th>Kopf 2</th>
+            <th>Kopf 3</th>
+          </tr>
+          </thead>
+ <tbody>
+    <tr>
+        <td>Zelle 1, Reihe 1</td>
+        <td>Zelle 2, Reihe 1</td>
+        <td>Zelle 3, Reihe 1</td>
+      </tr>
+      <tr>
+        <td>Zelle 1, Reihe 1</td>
+        <td>Zelle 2, Reihe 1</td>
+        <td>Zelle 3, Reihe 1</td>
+      </tr>
+      <tr>
+        <td>Zelle 1, Reihe 1</td>
+        <td>Zelle 2, Reihe 1</td>
+        <td>Zelle 3, Reihe 1</td>
+        
+    
+      </tr>
+      <tr>
+<td>Zelle 1, Reihe 2</td>
+       <td>Zelle 2, Reihe 2</td>
+        <td>Zelle 3, Reihe 1</td>
+ </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Fuß1</td>
+                    <td>Fuß2</td>
+                    <td>Fuß3</td>
+                </tr>
+            </tfoot>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

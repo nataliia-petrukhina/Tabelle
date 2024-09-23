@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #fffffe;
+    --secondary-color: #6246ea;
+    --accent-color: #2b2c34;
+    --tint-color: #d1d1e9;
+    --text-color: #0d0d0d;
+    --text-color-dark: #2b2c34;
+    --spacing-small: 0.5rem;
+    --spacing-medium: 2rem;
+    --spacing-large: 3.2rem;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 2.4rem;
+    --font-size-xlarge: 3.2rem;
+    --font-size-xxlarge: 4.8rem;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding-top: var(--spacing-large);
+    text-align: center;
+}
+
+h1{
+    font-size: var(--font-size-xxlarge);
+    margin-bottom: var(--spacing-medium);
+}
+
+p{
+    font-size: var(--font-size-medium);
+}
+
+section{
+    margin: 5% auto;
+}
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table,th,td{
+    border: 1px solid blueviolet;
+    font-size: var(--font-size-medium);
+    padding: var(--spacing-small);
+}
+
+caption{
+    caption-side: top;
+    font-size: var(--font-size-medium);
+    margin-bottom: var(--spacing-small);
+    font-style: italic;
+}
+
+
+th{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+td:hover{
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+tbody tr:last-child{
+    background-color: var(--tint-color);
+}
+
+/* -first-child
+-even
+-odd
+-formular (3n+1) oder (3n-1)
+-last-child */
